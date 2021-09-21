@@ -15,6 +15,6 @@ namespace WorkLath.Bl.Dto
         public DateTime BirthDate { get; set; }
         public string Email { get; set; }
         public int PhotoId { get; set; }
-        public virtual Document Photo { get; set; }
+        public virtual DocumentDto Photo { get; set; }
     }
 }
