@@ -12,3 +12,17 @@ C:\Users\karly\source\repos\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLat
 C:\Users\karly\source\repos\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.csproj.CopyComplete
 C:\Users\karly\source\repos\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.dll
 C:\Users\karly\source\repos\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\bin\Debug\netcoreapp3.1\WorkLath.Bl.deps.json
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\bin\Debug\netcoreapp3.1\WorkLath.Bl.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\bin\Debug\netcoreapp3.1\WorkLath.Bl.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\bin\Debug\netcoreapp3.1\WorkLath.Core.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\bin\Debug\netcoreapp3.1\WorkLath.Model.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\bin\Debug\netcoreapp3.1\WorkLath.Model.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\bin\Debug\netcoreapp3.1\WorkLath.Core.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.AssemblyInfo.cs
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.csproj.CopyComplete
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.pdb

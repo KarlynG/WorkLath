@@ -16,3 +16,21 @@ C:\Users\karly\source\repos\WorkLath\WorkLath.Test\obj\Debug\netcoreapp3.1\WorkL
 C:\Users\karly\source\repos\WorkLath\WorkLath.Test\obj\Debug\netcoreapp3.1\WorkLath.Test.csproj.CopyComplete
 C:\Users\karly\source\repos\WorkLath\WorkLath.Test\obj\Debug\netcoreapp3.1\WorkLath.Test.dll
 C:\Users\karly\source\repos\WorkLath\WorkLath.Test\obj\Debug\netcoreapp3.1\WorkLath.Test.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\bin\Debug\netcoreapp3.1\WorkLath.Test.deps.json
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\bin\Debug\netcoreapp3.1\WorkLath.Test.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\bin\Debug\netcoreapp3.1\WorkLath.Test.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\bin\Debug\netcoreapp3.1\WorkLath.Bl.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\bin\Debug\netcoreapp3.1\WorkLath.Core.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\bin\Debug\netcoreapp3.1\WorkLath.Model.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\bin\Debug\netcoreapp3.1\WorkLath.Service.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\bin\Debug\netcoreapp3.1\WorkLath.Service.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\bin\Debug\netcoreapp3.1\WorkLath.Bl.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\bin\Debug\netcoreapp3.1\WorkLath.Core.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\bin\Debug\netcoreapp3.1\WorkLath.Model.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\obj\Debug\netcoreapp3.1\WorkLath.Test.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\obj\Debug\netcoreapp3.1\WorkLath.Test.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\obj\Debug\netcoreapp3.1\WorkLath.Test.AssemblyInfo.cs
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\obj\Debug\netcoreapp3.1\WorkLath.Test.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\obj\Debug\netcoreapp3.1\WorkLath.Test.csproj.CopyComplete
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\obj\Debug\netcoreapp3.1\WorkLath.Test.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Test\obj\Debug\netcoreapp3.1\WorkLath.Test.pdb

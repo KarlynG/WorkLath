@@ -13,3 +13,18 @@ C:\Users\karly\source\repos\WorkLath\WorkLath.Model\obj\Debug\netcoreapp3.1\Work
 C:\Users\karly\source\repos\WorkLath\WorkLath.Model\obj\Debug\netcoreapp3.1\WorkLath.Model.dll
 C:\Users\karly\source\repos\WorkLath\WorkLath.Model\obj\Debug\netcoreapp3.1\WorkLath.Model.pdb
 C:\Users\karly\source\repos\WorkLath\WorkLath.Model\obj\Debug\netcoreapp3.1\WorkLath.Model.genruntimeconfig.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\obj\Debug\netcoreapp3.1\WorkLath.Model.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\obj\Debug\netcoreapp3.1\WorkLath.Model.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\obj\Debug\netcoreapp3.1\WorkLath.Model.AssemblyInfo.cs
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\obj\Debug\netcoreapp3.1\WorkLath.Model.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\obj\Debug\netcoreapp3.1\WorkLath.Model.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\obj\Debug\netcoreapp3.1\WorkLath.Model.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\bin\Debug\netcoreapp3.1\WorkLath.Model.deps.json
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\bin\Debug\netcoreapp3.1\WorkLath.Model.runtimeconfig.json
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\bin\Debug\netcoreapp3.1\WorkLath.Model.runtimeconfig.dev.json
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\bin\Debug\netcoreapp3.1\WorkLath.Model.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\bin\Debug\netcoreapp3.1\WorkLath.Model.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\bin\Debug\netcoreapp3.1\WorkLath.Core.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\bin\Debug\netcoreapp3.1\WorkLath.Core.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\obj\Debug\netcoreapp3.1\WorkLath.Model.csproj.CopyComplete
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Model\obj\Debug\netcoreapp3.1\WorkLath.Model.genruntimeconfig.cache
