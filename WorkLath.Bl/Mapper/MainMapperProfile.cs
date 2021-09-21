@@ -14,6 +14,12 @@ namespace WorkLath.Bl.Mapper
         {
             CreateMap<Document, DocumentDto>();
             CreateMap<DocumentDto, Document>();
+            CreateMap<Job, JobDto>();
+            CreateMap<JobDto, Job>();
+            CreateMap<Post, PostDto>();
+            CreateMap<PostDto, Post>();
+            CreateMap<Users, UsersDto>();
+            CreateMap<UsersDto, Users>();
 
         }
     }

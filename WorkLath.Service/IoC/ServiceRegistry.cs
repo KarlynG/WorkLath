@@ -11,6 +11,10 @@ namespace WorkLath.Services.IoC
         public static void AddServiceRegistry(this IServiceCollection services)
         {
             services.AddScoped<IDocumentService, DocumentService>();
+            services.AddScoped<IJobService,  JobService>();
+            services.AddScoped<IPostService, PostService>();
+            services.AddScoped<IUserService, UserService>();
+            
         }
     }
 }

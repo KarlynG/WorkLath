@@ -12,6 +12,9 @@ namespace GenericApi.Model.IoC
         public static void AddModelRegistry(this IServiceCollection services)
         {
             services.AddScoped<IDocumentRepository, DocumentRepository>();
+            services.AddScoped<IJobRepository, JobRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IPostRepository, PostRepository>();
         }
     }
 }

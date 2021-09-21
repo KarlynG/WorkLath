@@ -5845,20 +5845,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\karly\\.nuget\\packages\\": {}
+    "C:\\Users\\Jonathan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj",
+      "projectUniqueName": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj",
       "projectName": "WorkLath.Bl",
-      "projectPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj",
-      "packagesPath": "C:\\Users\\karly\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Bl\\obj\\",
+      "projectPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj",
+      "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Bl\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\karly\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5871,8 +5881,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj": {
-              "projectPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj"
+            "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj": {
+              "projectPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj"
             }
           }
         }
@@ -5915,7 +5925,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
