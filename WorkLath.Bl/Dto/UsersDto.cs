@@ -16,5 +16,7 @@ namespace WorkLath.Bl.Dto
         public string Email { get; set; }
         public int PhotoId { get; set; }
         public virtual DocumentDto Photo { get; set; }
+        public string UserName { get; set; }
+        public string Password { get; set; }
     }
 }

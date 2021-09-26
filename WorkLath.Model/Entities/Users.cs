@@ -14,7 +14,9 @@ namespace WorkLath.Model.Entities
         public string LastName { get; set; }
         public DateTime BirthDate { get; set; }
         public string Email { get; set; }
-        public int PhotoId { get; set; }
+        public int? PhotoId { get; set; }
         public virtual Document Photo { get; set; }
+        public string UserName { get; set; }
+        public string Password { get; set; }
     }
 }

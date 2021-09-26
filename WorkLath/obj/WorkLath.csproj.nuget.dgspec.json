@@ -1,28 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath\\WorkLath.csproj": {}
+    "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath\\WorkLath.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj": {
+    "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj",
+        "projectUniqueName": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj",
         "projectName": "WorkLath.Bl",
-        "projectPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj",
-        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Bl\\obj\\",
+        "projectPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj",
+        "packagesPath": "C:\\Users\\karly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Bl\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\karly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -35,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj": {
-                "projectPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj"
+              "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj": {
+                "projectPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj"
               }
             }
           }
@@ -79,29 +72,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Core\\WorkLath.Core.csproj": {
+    "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Core\\WorkLath.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Core\\WorkLath.Core.csproj",
+        "projectUniqueName": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Core\\WorkLath.Core.csproj",
         "projectName": "WorkLath.Core",
-        "projectPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Core\\WorkLath.Core.csproj",
-        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Core\\obj\\",
+        "projectPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Core\\WorkLath.Core.csproj",
+        "packagesPath": "C:\\Users\\karly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\karly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -140,29 +126,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj": {
+    "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj",
+        "projectUniqueName": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj",
         "projectName": "WorkLath.Model",
-        "projectPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj",
-        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Model\\obj\\",
+        "projectPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Model\\WorkLath.Model.csproj",
+        "packagesPath": "C:\\Users\\karly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\karly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -175,8 +154,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Core\\WorkLath.Core.csproj": {
-                "projectPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Core\\WorkLath.Core.csproj"
+              "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Core\\WorkLath.Core.csproj": {
+                "projectPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Core\\WorkLath.Core.csproj"
               }
             }
           }
@@ -221,29 +200,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Service\\WorkLath.Service.csproj": {
+    "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Service\\WorkLath.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Service\\WorkLath.Service.csproj",
+        "projectUniqueName": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Service\\WorkLath.Service.csproj",
         "projectName": "WorkLath.Service",
-        "projectPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Service\\WorkLath.Service.csproj",
-        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Service\\obj\\",
+        "projectPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Service\\WorkLath.Service.csproj",
+        "packagesPath": "C:\\Users\\karly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\karly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -256,8 +228,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj": {
-                "projectPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj"
+              "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj": {
+                "projectPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Bl\\WorkLath.Bl.csproj"
               }
             }
           }
@@ -292,29 +264,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath\\WorkLath.csproj": {
+    "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath\\WorkLath.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath\\WorkLath.csproj",
+        "projectUniqueName": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath\\WorkLath.csproj",
         "projectName": "WorkLath",
-        "projectPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath\\WorkLath.csproj",
-        "packagesPath": "C:\\Users\\Jonathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath\\obj\\",
+        "projectPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath\\WorkLath.csproj",
+        "packagesPath": "C:\\Users\\karly\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Jonathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\karly\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -327,8 +292,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Service\\WorkLath.Service.csproj": {
-                "projectPath": "C:\\Users\\Jonathan\\Desktop\\p3 homework1\\WorkLath\\WorkLath.Service\\WorkLath.Service.csproj"
+              "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Service\\WorkLath.Service.csproj": {
+                "projectPath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Service\\WorkLath.Service.csproj"
               }
             }
           }
@@ -346,6 +311,10 @@
             "Microsoft.AspNet.WebApi.OData": {
               "target": "Package",
               "version": "[5.7.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.17, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
@@ -376,12 +345,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.18, 3.1.18]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -390,7 +353,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GenericApi.Model.IoC
+namespace WorkLath.Model.IoC
 {
     public static class ModelRegistry
     {
