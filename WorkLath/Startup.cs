@@ -13,9 +13,9 @@ using System.Threading.Tasks;
 using WorkLath.Bl.Config;
 using Microsoft.OpenApi.Models;
 using WorkLath.Config;
-using GenericApi.Model.IoC;
+using WorkLath.Model.IoC;
 using WorkLath.Services.IoC;
-using GenericApi.Config;
+using WorkLath.Core.Settings;
 
 namespace WorkLath
 {
@@ -40,6 +40,8 @@ namespace WorkLath
             services.ConfigAutoMapper();
             services.ConfigOData();
             services.ConfigSwagger();
+            services.Configure<JwtSettings>(Configuration.GetSection("JwtSettings"));
+            services.ConfigJwtAuth(Configuration);
 
             services.AddModelRegistry();
             services.AddServiceRegistry();
@@ -58,6 +60,7 @@ namespace WorkLath
             app.UseRouting();
             app.UseAppSwagger();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseMvc(routeBuilder => routeBuilder.UseAppOData());
