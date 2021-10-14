@@ -7,9 +7,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WorkLath.Bl.Dto;
 using WorkLath.Bl.Extensions;
 using WorkLath.Core.Abstract;
 using WorkLath.Core.BaseModel;
+using WorkLath.Model.Entities;
 using WorkLath.Service.Repository;
 
 namespace WorkLath.Service.Services
@@ -43,6 +45,9 @@ namespace WorkLath.Service.Services
             var list = query.ProjectTo<TDto>(_mapper.ConfigurationProvider);
             return await list.ToListAsync();
         }
+
+       
+
         public virtual IQueryable<TEntity> AsQuery()
         {
             return _repository.Query();
@@ -66,6 +71,9 @@ namespace WorkLath.Service.Services
                 return validationResult.ToOperationResult<TDto>();
 
             TEntity entity = _mapper.Map<TEntity>(dto);
+
+            
+
             var entityResult = await _repository.Add(entity);
 
             _mapper.Map(entityResult, dto);
@@ -73,6 +81,7 @@ namespace WorkLath.Service.Services
             var result = dto.ToOperationResult();
             return result;
         }
+        
         public virtual async Task<IEntityOperationResult<TDto>> UpdateAsync(int id, TDto dto)
         {
             var validationResult = _validator.Validate(dto);

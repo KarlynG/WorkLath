@@ -20,6 +20,7 @@ C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\bin\Debug\netcoreapp
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\bin\Debug\netcoreapp3.1\WorkLath.Model.pdb
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\bin\Debug\netcoreapp3.1\WorkLath.Core.pdb
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.AssemblyInfoInputs.cache
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.AssemblyInfo.cs
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Bl\obj\Debug\netcoreapp3.1\WorkLath.Bl.csproj.CoreCompileInputs.cache

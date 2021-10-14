@@ -11,12 +11,16 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using WorkLath.Bl.Dto;
+using WorkLath.Bl.Extensions;
+using WorkLath.Core.Abstract;
 using WorkLath.Core.Settings;
 using WorkLath.Model.Entities;
 using WorkLath.Model.Repository;
+using BC = BCrypt.Net.BCrypt;
 
 namespace WorkLath.Service.Services
 {
+    
     public interface IUserService : IBaseService<Users, UsersDto> {
         Task<AuthenticateResponseDto> GetToken(AuthenticateRequestDto model);
     }
@@ -31,6 +35,41 @@ namespace WorkLath.Service.Services
         {
             _jwtSettings = jwtSettings.Value;
         }
+
+        public override async Task<IEntityOperationResult<UsersDto>> AddAsync(UsersDto dto)
+        {
+            Users entity =_mapper.Map<Users>(dto);
+
+            entity.Password = encodepassword(dto.Password);
+
+            var entityResult = await _repository.Add(entity);
+
+            _mapper.Map(entityResult, dto);
+
+            var result = dto.ToOperationResult();
+
+            return result;
+            
+        }
+
+        //public override async Task<IEntityOperationResult<Users>> AddAsync(UsersDto dto)
+        //{
+
+
+        //    //Users entity = _mapper.Map<Users>(dto);
+        //    //entity.Password = encodepassword(dto.Password);
+
+        //    //var entityResult = await _repository.Add(entity);
+
+        //    //_mapper.Map(entityResult, dto);
+
+        //    //var result = dto.ToOperationResult();
+
+        //    //return result;
+
+        //}
+
+
 
         public async Task<AuthenticateResponseDto> GetToken(AuthenticateRequestDto model)
         {
@@ -49,10 +88,21 @@ namespace WorkLath.Service.Services
             if (user is null)
                 return null;
 
-            /*var isValidPassword = ValidatePassword(user.Password, model.Password);
+
+            
+
+            
+
+                        
+            
+            var isValidPassword = BC.Verify(user.Password, model.Password);
+
+            
 
             if (isValidPassword is false)
-                return null;*/
+                return null;
+
+            
 
             var response = new AuthenticateResponseDto
             {
@@ -66,6 +116,9 @@ namespace WorkLath.Service.Services
 
             return response;
         }
+
+        
+
         private string GenerateJwtToken(AuthenticateResponseDto user)
         {
             var key = Encoding.ASCII.GetBytes(_jwtSettings.Secret);
@@ -101,5 +154,11 @@ namespace WorkLath.Service.Services
 
             return token;
         }
+        private string encodepassword(string password)
+        {
+            string passwordHash = BCrypt.Net.BCrypt.HashPassword(password);
+            return passwordHash;
+        }
+        
     }
 }

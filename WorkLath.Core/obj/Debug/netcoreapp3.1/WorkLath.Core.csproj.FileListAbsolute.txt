@@ -11,6 +11,7 @@ C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Core\bin\Debug\netcorea
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Core\bin\Debug\netcoreapp3.1\WorkLath.Core.dll
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Core\bin\Debug\netcoreapp3.1\WorkLath.Core.pdb
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Core\obj\Debug\netcoreapp3.1\WorkLath.Core.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Core\obj\Debug\netcoreapp3.1\WorkLath.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Core\obj\Debug\netcoreapp3.1\WorkLath.Core.AssemblyInfoInputs.cache
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Core\obj\Debug\netcoreapp3.1\WorkLath.Core.AssemblyInfo.cs
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Core\obj\Debug\netcoreapp3.1\WorkLath.Core.csproj.CoreCompileInputs.cache
