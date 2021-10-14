@@ -11,7 +11,8 @@ namespace WorkLath.Model.Repository
     public class UserRepository : BaseRepository<Users>, IUserRepository 
     {
         public UserRepository(WorkLathContext context) : base(context)
-        {
+        { 
+            
         }
 
     }

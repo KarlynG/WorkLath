@@ -14,12 +14,6 @@ C:\Users\karly\source\repos\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\Wo
 C:\Users\karly\source\repos\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.csproj.CopyComplete
 C:\Users\karly\source\repos\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.dll
 C:\Users\karly\source\repos\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.pdb
-C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.csproj.AssemblyReference.cache
-C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.AssemblyInfoInputs.cache
-C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.AssemblyInfo.cs
-C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.csproj.CoreCompileInputs.cache
-C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.dll
-C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.pdb
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\bin\Debug\netcoreapp3.1\WorkLath.Service.deps.json
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\bin\Debug\netcoreapp3.1\WorkLath.Service.dll
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\bin\Debug\netcoreapp3.1\WorkLath.Service.pdb
@@ -29,4 +23,11 @@ C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\bin\Debug\netco
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\bin\Debug\netcoreapp3.1\WorkLath.Bl.pdb
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\bin\Debug\netcoreapp3.1\WorkLath.Core.pdb
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\bin\Debug\netcoreapp3.1\WorkLath.Model.pdb
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.csproj.AssemblyReference.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.AssemblyInfoInputs.cache
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.AssemblyInfo.cs
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.csproj.CoreCompileInputs.cache
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.csproj.CopyComplete
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.dll
+C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath.Service\obj\Debug\netcoreapp3.1\WorkLath.Service.pdb
