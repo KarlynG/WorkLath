@@ -45,6 +45,21 @@ namespace WorkLath
 
             services.AddModelRegistry();
             services.AddServiceRegistry();
+
+            services.AddCors(options =>
+            {
+                options.AddPolicy("MainPolicy",
+                      builder =>
+                      {
+                          builder
+                                 .AllowAnyHeader()
+                                 .AllowAnyMethod()
+                                 .AllowCredentials();
+
+                          //TODO: remove this line for production
+                          builder.SetIsOriginAllowed(x => true);
+                      });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,6 +74,7 @@ namespace WorkLath
 
             app.UseRouting();
             app.UseAppSwagger();
+            app.UseCors("MainPolicy");
 
             app.UseAuthentication();
             app.UseAuthorization();

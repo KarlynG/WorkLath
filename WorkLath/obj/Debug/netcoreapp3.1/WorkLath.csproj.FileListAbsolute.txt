@@ -237,3 +237,4 @@ C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath\obj\Debug\netcoreapp3.1
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath\obj\Debug\netcoreapp3.1\WorkLath.csproj.CopyComplete
 C:\Users\Jonathan\Desktop\p3 homework1\WorkLath\WorkLath\obj\Debug\netcoreapp3.1\WorkLath.genruntimeconfig.cache
 C:\Users\karly\source\repos\WorkLath\WorkLath\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\karly\source\repos\WorkLath\WorkLath\bin\Debug\netcoreapp3.1\BCrypt.Net-Next.dll

@@ -11,6 +11,8 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using WorkLath.Bl.Dto;
+using WorkLath.Bl.Extensions;
+using WorkLath.Core.Abstract;
 using WorkLath.Core.Settings;
 using WorkLath.Model.Entities;
 using WorkLath.Model.Repository;
@@ -31,7 +33,32 @@ namespace WorkLath.Service.Services
         {
             _jwtSettings = jwtSettings.Value;
         }
+        private string EncodePassword(string password)
+        {
+            string passwordHash = BCrypt.Net.BCrypt.HashPassword(password);
+            return passwordHash;
+        }
+        public override async Task<IEntityOperationResult<UsersDto>> AddAsync(UsersDto dto)
+        {
+            var validationResult = _validator.Validate(dto);
+            if (validationResult.IsValid is false)
+                return validationResult.ToOperationResult<UsersDto>();
 
+            Users entity = _mapper.Map<Users>(dto);
+            entity.Password = EncodePassword(dto.Password);
+
+            var entityResult = await _repository.Add(entity);
+
+            _mapper.Map(entityResult, dto);
+
+            var result = dto.ToOperationResult();
+            return result;
+        }
+        public bool ValidatePassword(string userPassword, string requestPassword)
+        {
+            bool verified = BCrypt.Net.BCrypt.Verify(requestPassword, userPassword);
+            return verified;
+        }
         public async Task<AuthenticateResponseDto> GetToken(AuthenticateRequestDto model)
         {
             var user = await _repository.Query()
@@ -49,10 +76,10 @@ namespace WorkLath.Service.Services
             if (user is null)
                 return null;
 
-            /*var isValidPassword = ValidatePassword(user.Password, model.Password);
+            var isValidPassword = ValidatePassword(user.Password, model.Password);
 
             if (isValidPassword is false)
-                return null;*/
+                return null;
 
             var response = new AuthenticateResponseDto
             {

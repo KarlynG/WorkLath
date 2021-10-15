@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace WorkLath.Controllers
 {
     [ApiController]
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     public class BaseController<TEntity, TDto> : ControllerBase
         where TEntity : IBase
