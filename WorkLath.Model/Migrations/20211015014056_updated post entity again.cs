@@ -1,6 +1,8 @@
 ﻿
 
 
+using Microsoft.EntityFrameworkCore.Migrations;
+
 namespace WorkLath.Model.Migrations
 {
     public partial class updatedpostentityagain : Migration
