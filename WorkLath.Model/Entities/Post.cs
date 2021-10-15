@@ -8,7 +8,14 @@ namespace WorkLath.Model.Entities
 {
     public class Post : BaseEntity
     {
-        public string Title { get; set; }
-        public string Content { get; set; }
+        public string Category { get; set; }
+        public string Schedule { get; set; }
+        public string CompanyName { get; set; }
+        public string Position { get; set; }
+        public string PhotoId { get; set; }
+        public Document? Photo { get; set; }
+        public string Url { get; set; }
+        public string Location { get; set; }
+        public string Description { get; set; }
     }
 }
