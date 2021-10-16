@@ -12,8 +12,8 @@ namespace WorkLath.Model.Entities
         public string Schedule { get; set; }
         public string CompanyName { get; set; }
         public string Position { get; set; }
-        public string PhotoId { get; set; }
-        public Document? Photo { get; set; }
+        public int? PhotoId { get; set; }
+        public Document Photo { get; set; }
         public string Url { get; set; }
         public string Location { get; set; }
         public string Description { get; set; }

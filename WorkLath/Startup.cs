@@ -41,6 +41,7 @@ namespace WorkLath
             services.ConfigOData();
             services.ConfigSwagger();
             services.Configure<JwtSettings>(Configuration.GetSection("JwtSettings"));
+            services.Configure<FileStoreSettings>(Configuration.GetSection("FileStoreSettings"));
             services.ConfigJwtAuth(Configuration);
 
             services.AddModelRegistry();
