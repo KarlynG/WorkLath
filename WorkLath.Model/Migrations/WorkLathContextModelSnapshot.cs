@@ -128,10 +128,7 @@ namespace WorkLath.Model.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("JobId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("JobId1")
+                    b.Property<int>("JobId")
                         .HasColumnType("int");
 
                     b.Property<string>("Location")
@@ -157,7 +154,7 @@ namespace WorkLath.Model.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("JobId1");
+                    b.HasIndex("JobId");
 
                     b.HasIndex("PhotoId");
 
@@ -227,7 +224,9 @@ namespace WorkLath.Model.Migrations
                 {
                     b.HasOne("WorkLath.Model.Entities.Job", "Job")
                         .WithMany("Posts")
-                        .HasForeignKey("JobId1");
+                        .HasForeignKey("JobId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("WorkLath.Model.Entities.Document", "Photo")
                         .WithMany()

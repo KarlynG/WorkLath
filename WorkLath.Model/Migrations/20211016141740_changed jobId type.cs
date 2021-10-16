@@ -2,78 +2,77 @@
 
 namespace WorkLath.Model.Migrations
 {
-    public partial class updateddocumentinpost : Migration
+    public partial class changedjobIdtype : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
-                name: "FK_Posts_Documents_PhotoId1",
+                name: "FK_Posts_Jobs_JobId1",
                 table: "Posts");
 
             migrationBuilder.DropIndex(
-                name: "IX_Posts_PhotoId1",
+                name: "IX_Posts_JobId1",
                 table: "Posts");
 
             migrationBuilder.DropColumn(
-                name: "PhotoId1",
+                name: "JobId1",
                 table: "Posts");
 
             migrationBuilder.AlterColumn<int>(
-                name: "PhotoId",
+                name: "JobId",
                 table: "Posts",
-                nullable: true,
+                nullable: false,
                 oldClrType: typeof(string),
                 oldType: "nvarchar(max)",
                 oldNullable: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Posts_PhotoId",
+                name: "IX_Posts_JobId",
                 table: "Posts",
-                column: "PhotoId");
+                column: "JobId");
 
             migrationBuilder.AddForeignKey(
-                name: "FK_Posts_Documents_PhotoId",
+                name: "FK_Posts_Jobs_JobId",
                 table: "Posts",
-                column: "PhotoId",
-                principalTable: "Documents",
+                column: "JobId",
+                principalTable: "Jobs",
                 principalColumn: "Id",
-                onDelete: ReferentialAction.Restrict);
+                onDelete: ReferentialAction.Cascade);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropForeignKey(
-                name: "FK_Posts_Documents_PhotoId",
+                name: "FK_Posts_Jobs_JobId",
                 table: "Posts");
 
             migrationBuilder.DropIndex(
-                name: "IX_Posts_PhotoId",
+                name: "IX_Posts_JobId",
                 table: "Posts");
 
             migrationBuilder.AlterColumn<string>(
-                name: "PhotoId",
+                name: "JobId",
                 table: "Posts",
                 type: "nvarchar(max)",
                 nullable: true,
-                oldClrType: typeof(int),
-                oldNullable: true);
+                oldClrType: typeof(int));
 
             migrationBuilder.AddColumn<int>(
-                name: "PhotoId1",
+                name: "JobId1",
                 table: "Posts",
                 type: "int",
                 nullable: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Posts_PhotoId1",
+                name: "IX_Posts_JobId1",
                 table: "Posts",
-                column: "PhotoId1");
+                column: "JobId1");
 
             migrationBuilder.AddForeignKey(
-                name: "FK_Posts_Documents_PhotoId1",
+                name: "FK_Posts_Jobs_JobId1",
                 table: "Posts",
-                column: "PhotoId1",
-                principalTable: "Documents",
+                column: "JobId1",
+                principalTable: "Jobs",
                 principalColumn: "Id",
                 onDelete: ReferentialAction.Restrict);
         }

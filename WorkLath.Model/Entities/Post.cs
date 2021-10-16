@@ -17,7 +17,7 @@ namespace WorkLath.Model.Entities
         public string Url { get; set; }
         public string Location { get; set; }
         public string Description { get; set; }
-        public string JobId { get; set; }
+        public int JobId { get; set; }
         public Job Job { get; set; }
     }
 }
