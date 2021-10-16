@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WorkLath.Model.Context;
 
 namespace WorkLath.Model.Migrations
 {
     [DbContext(typeof(WorkLathContext))]
-    partial class WorkLathContextModelSnapshot : ModelSnapshot
+    [Migration("20211016015018_added relation between jobs and posts")]
+    partial class addedrelationbetweenjobsandposts
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

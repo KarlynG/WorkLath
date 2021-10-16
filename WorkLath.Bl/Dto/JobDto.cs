@@ -7,8 +7,11 @@ namespace WorkLath.Bl.Dto
 {
     public class JobDto : BaseEntityDto
     {
-        public string Location { get; set; }
-        public string Postition { get; set; }
-        public string Company { get; set; }
+        public JobDto()
+        {
+            Posts = new HashSet<PostDto>();
+        }
+        public string Name { get; set; }
+        public ICollection<PostDto> Posts { get; set; }
     }
 }
