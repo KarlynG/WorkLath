@@ -10,9 +10,9 @@ namespace WorkLath.Bl.Validations
     {
         public JobValidator()
         {
-            RuleFor(x=> x.Postition)
+            RuleFor(x=> x.Name)
                 .NotEmpty()
-                .WithMessage("Position's is required");
+                .WithMessage("Job name is required");
         }
     }
 }

@@ -8,8 +8,11 @@ namespace WorkLath.Model.Entities
 {
     public class Job : BaseEntity
     {
-        public string Location { get; set; }
-        public string Postition { get; set; }
-        public string Company { get; set; }
+        public Job()
+        {
+            Posts = new HashSet<Post>();
+        }
+        public string Name { get; set; }
+        public ICollection<Post> Posts { get; set; }
     }
 }

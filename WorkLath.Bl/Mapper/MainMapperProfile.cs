@@ -16,7 +16,8 @@ namespace WorkLath.Bl.Mapper
             CreateMap<DocumentDto, Document>();
             CreateMap<Job, JobDto>();
             CreateMap<JobDto, Job>();
-            CreateMap<Post, PostDto>();
+            CreateMap<Post, PostDto>()
+            .ForMember(dto => dto.PhotoFileName, config => config.MapFrom(entity => entity.Photo.FileName));
             CreateMap<PostDto, Post>();
             CreateMap<Users, UsersDto>();
             CreateMap<UsersDto, Users>();

@@ -10,7 +10,7 @@ namespace WorkLath.Bl.Validations
     {
         public PostValidator()
         {
-            RuleFor(x => x.Title)
+            RuleFor(x => x.CompanyName)
                 .NotEmpty()
                 .WithMessage("Title is required");
         }

@@ -14,7 +14,8 @@ namespace WorkLath.Services.IoC
             services.AddScoped<IJobService,  JobService>();
             services.AddScoped<IPostService, PostService>();
             services.AddScoped<IUserService, UserService>();
-            
+            services.AddScoped<IFileService, FileService>();
+
         }
     }
 }

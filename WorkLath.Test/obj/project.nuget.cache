@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jlM7yVPZrot2p/BhVO+0Kb5G5KVFtWD6lA88zJrNpH6djB/qTE49KW76h2ZqzniAlC2NNLO968F0smIbC6YZTg==",
+  "dgSpecHash": "8gNCIHb2kAA+/CzCJ0HH14LL/4dkoOj+TO+ZJ/yfGJuhjnpd3oHSJgbBkatQZgfkI+PmNZiWUfZt0snQyBa1ww==",
   "success": true,
   "projectFilePath": "C:\\Users\\karly\\source\\repos\\WorkLath\\WorkLath.Test\\WorkLath.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karly\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\karly\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\karly\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\karly\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
     "C:\\Users\\karly\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.3\\fluentvalidation.aspnetcore.10.3.3.nupkg.sha512",
     "C:\\Users\\karly\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.3\\fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
